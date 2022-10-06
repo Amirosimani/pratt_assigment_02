@@ -27,7 +27,7 @@ Your solution should have the following steps:
 
 5- You should report the accuracy of the best set of parameters, describe the precision/recall of your top-performing model using both the precision-recall curve, and the confusion matrix.
 
-5- Use the best model from step 4 to create a fucntion called `credit_approval` that takes a single row of data and predict if a credit card will be granted or not. It should looklike something like below.
+6- Use the best model from step 4 to create a fucntion called `credit_approval` that takes a single row of data and predict if a credit card will be granted or not. It should looklike something like below.
 
 ```
 def credit_approval(row, model):
